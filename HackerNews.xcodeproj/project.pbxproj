@@ -16,6 +16,17 @@
 		499ACB462E4CF21E00E6F818 /* HackerNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499ACB452E4CF21E00E6F818 /* HackerNewsTests.swift */; };
 		499ACB502E4CF21E00E6F818 /* HackerNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499ACB4F2E4CF21E00E6F818 /* HackerNewsUITests.swift */; };
 		499ACB522E4CF21E00E6F818 /* HackerNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499ACB512E4CF21E00E6F818 /* HackerNewsUITestsLaunchTests.swift */; };
+		49D059DF2E4F88CC00D28676 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059DE2E4F88CC00D28676 /* WelcomeViewController.swift */; };
+		49D059E12E4F892900D28676 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059E02E4F892900D28676 /* SignUpViewController.swift */; };
+		49D059E32E4F896500D28676 /* Log inViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059E22E4F896500D28676 /* Log inViewController.swift */; };
+		49D059E52E4F898B00D28676 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059E42E4F898B00D28676 /* ForgotPasswordViewController.swift */; };
+		49D059E72E4F89C600D28676 /* OTPVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059E62E4F89C600D28676 /* OTPVerificationViewController.swift */; };
+		49D059E92E4F89E600D28676 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059E82E4F89E600D28676 /* ResetPasswordViewController.swift */; };
+		49D059EB2E4F8A5400D28676 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059EA2E4F8A5400D28676 /* LastViewController.swift */; };
+		49D059ED2E4FA19800D28676 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059EC2E4FA19800D28676 /* Calculator.swift */; };
+		49D059EF2E4FB8F300D28676 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059EE2E4FB8F300D28676 /* FizzBuzz.swift */; };
+		49D059F12E4FC06E00D28676 /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059F02E4FC06E00D28676 /* Prime.swift */; };
+		49D059F32E4FC56A00D28676 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D059F22E4FC56A00D28676 /* Reverse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		499ACB4B2E4CF21E00E6F818 /* HackerNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499ACB4F2E4CF21E00E6F818 /* HackerNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsUITests.swift; sourceTree = "<group>"; };
 		499ACB512E4CF21E00E6F818 /* HackerNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49D059DE2E4F88CC00D28676 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		49D059E02E4F892900D28676 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		49D059E22E4F896500D28676 /* Log inViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log inViewController.swift"; sourceTree = "<group>"; };
+		49D059E42E4F898B00D28676 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		49D059E62E4F89C600D28676 /* OTPVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewController.swift; sourceTree = "<group>"; };
+		49D059E82E4F89E600D28676 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		49D059EA2E4F8A5400D28676 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
+		49D059EC2E4FA19800D28676 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		49D059EE2E4FB8F300D28676 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		49D059F02E4FC06E00D28676 /* Prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
+		49D059F22E4FC56A00D28676 /* Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reverse.swift; path = HackerNews/Reverse.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +125,19 @@
 				499ACB302E4CF21A00E6F818 /* SceneDelegate.swift */,
 				499ACB322E4CF21A00E6F818 /* ViewController.swift */,
 				499ACB342E4CF21A00E6F818 /* Main.storyboard */,
+				49D059E82E4F89E600D28676 /* ResetPasswordViewController.swift */,
+				49D059E62E4F89C600D28676 /* OTPVerificationViewController.swift */,
+				49D059E42E4F898B00D28676 /* ForgotPasswordViewController.swift */,
+				49D059E22E4F896500D28676 /* Log inViewController.swift */,
+				49D059DE2E4F88CC00D28676 /* WelcomeViewController.swift */,
+				49D059E02E4F892900D28676 /* SignUpViewController.swift */,
 				499ACB372E4CF21D00E6F818 /* Assets.xcassets */,
+				49D059EA2E4F8A5400D28676 /* LastViewController.swift */,
 				499ACB392E4CF21D00E6F818 /* LaunchScreen.storyboard */,
 				499ACB3C2E4CF21D00E6F818 /* Info.plist */,
+				49D059EC2E4FA19800D28676 /* Calculator.swift */,
+				49D059EE2E4FB8F300D28676 /* FizzBuzz.swift */,
+				49D059F02E4FC06E00D28676 /* Prime.swift */,
 			);
 			path = HackerNews;
 			sourceTree = "<group>";
@@ -114,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				499ACB452E4CF21E00E6F818 /* HackerNewsTests.swift */,
+				49D059F22E4FC56A00D28676 /* Reverse.swift */,
 			);
 			path = HackerNewsTests;
 			sourceTree = "<group>";
@@ -258,9 +291,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D059E92E4F89E600D28676 /* ResetPasswordViewController.swift in Sources */,
 				499ACB332E4CF21A00E6F818 /* ViewController.swift in Sources */,
+				49D059E52E4F898B00D28676 /* ForgotPasswordViewController.swift in Sources */,
+				49D059DF2E4F88CC00D28676 /* WelcomeViewController.swift in Sources */,
+				49D059F12E4FC06E00D28676 /* Prime.swift in Sources */,
+				49D059E72E4F89C600D28676 /* OTPVerificationViewController.swift in Sources */,
 				499ACB2F2E4CF21A00E6F818 /* AppDelegate.swift in Sources */,
+				49D059EB2E4F8A5400D28676 /* LastViewController.swift in Sources */,
 				499ACB312E4CF21A00E6F818 /* SceneDelegate.swift in Sources */,
+				49D059E12E4F892900D28676 /* SignUpViewController.swift in Sources */,
+				49D059ED2E4FA19800D28676 /* Calculator.swift in Sources */,
+				49D059E32E4F896500D28676 /* Log inViewController.swift in Sources */,
+				49D059EF2E4FB8F300D28676 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D059F32E4FC56A00D28676 /* Reverse.swift in Sources */,
 				499ACB462E4CF21E00E6F818 /* HackerNewsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
